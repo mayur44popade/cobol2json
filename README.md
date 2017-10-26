@@ -8,10 +8,14 @@ Input:
 A cobol copybook can be converted into XML data format using Qt creator. XML file acts as input to our system.
 
 Processing:
-I used 'xml2js' module to convert xml file to a json object. Then we traverse this object and along the way create string buffer with input data values. String buffer can act as input for CICS Transaction server.
+I used 'xml2js' module to convert xml file to a json object. While converting to json object, all '-' in attribute names are converted to '\_' for ease of traversing json object. Then we traverse this object and along the way create string buffer with input data values. String buffer can act as input for CICS Transaction server.
 
 Output:
 String buffer with input data values.
+
+Tips for execution:
+In terminal or cmd, run following script
+node executor.js
 
 Limitations:
 Module is still in preliminary phase. 
