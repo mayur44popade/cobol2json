@@ -1,0 +1,12 @@
+<copybook filename="student.cbl">
+  <item level="01" name="STUDENT" position="1" display-length="160" storage-length="160">
+    <item level="03" name="STUDENT-ID" picture="X(02)" display-length="2" storage-length="2" position="1" />
+    <item level="03" name="STUDENT-FIRST-NAME" picture="X(75)" display-length="75" storage-length="75" position="3" />
+    <item level="03" name="STUDENT-LAST-NAME" picture="X(50)" display-length="50" storage-length="50" position="78" />
+    <item level="03" name="STUDENT-CLASS" picture="X(02)" display-length="2" storage-length="2" position="128" />
+    <item level="03" name="STUDENT-IQ" picture="X(03)" display-length="3" storage-length="3" position="130" />
+    <item level="03" name="STUDENT-PHONE-NUMBER" picture="X(08)" display-length="8" storage-length="8" position="133" />
+    <item level="03" name="STUDENT-GRADE" picture="9(07)" display-length="7" storage-length="4" numeric="true" usage="computational-3" position="141" />
+    <item level="03" name="FILLER" picture="X(16)" display-length="16" storage-length="16" position="145" />
+  </item>
+</copybook>
