@@ -1,0 +1,27 @@
+{
+  "name": "cobol2json",
+  "version": "1.0.0",
+  "description": "parser to generate a JSON object from a COBOL copybook",
+  "main": "dataParser.js",
+  "dependencies": {
+    "string": "^3.3.1",
+    "xml2js": "^0.4.15"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mayur44popade/cobol2json.git"
+  },
+  "keywords": [
+    "cobol2json"
+  ],
+  "author": "mayur44popade@gmail.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mayur44popade/cobol2json/issues"
+  },
+  "homepage": "https://github.com/mayur44popade/cobol2json#readme"
+}
